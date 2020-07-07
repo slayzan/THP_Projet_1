@@ -1,5 +1,2 @@
 puts "rentre ton année de naissance"
-year = gets.to_i
-(year..2020).each_with_index do |annee, i|
-    puts "en #{annee} tu avais #{i + 1} ans"
-end
+(gets.to_i..2020).each_with_index { |annee, i|  puts "en #{annee} tu avais #{i} ans"; i +=1 }

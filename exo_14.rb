@@ -1,3 +1,2 @@
 puts "rentre un nombre "
-nombre = gets.to_i
-nombre.downto(0) {|nb| puts "#{nb}"}
+gets.to_i.downto(0) {|nb| puts "#{nb}"}
